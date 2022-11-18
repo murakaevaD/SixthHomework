@@ -43,11 +43,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="pations.cs" />
+    <Compile Include="vrachii.cs" />
+    <Compile Include="doctorr.cs" />
+    <Compile Include="hospitall.cs" />
+    <Compile Include="clinic.cs" />
+    <Compile Include="Hospitaltyy.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="врачи.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
